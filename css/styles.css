@@ -1,0 +1,10 @@
+form{
+    width: 70%;
+    margin-left: 10%;
+}
+#name,#email,#comment{
+    background-color: transparent;
+}
+.jumbotron{
+    background-color: white;
+}
