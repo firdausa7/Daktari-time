@@ -17,4 +17,16 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
     setTimeout(showSlides, 50000); // Change image every 2 seconds}
 }
+
+  $("#worker1").click(function(){
+    $("#comment1").toggle();
+        });
+  
+   $("#worker2").click(function(){
+     $("#comment2").toggle();
+        });
+  
+   $("#worker3").click(function(){
+     $("#comment3").slideDown();
+         });
 });
