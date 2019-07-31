@@ -44,12 +44,13 @@ If you have any question or contributions, please email Us at
 | Christine Ombima | [christineombima452@gmail.com] |
 | Peter Ndegwa | [kpndegwa@gmail.co] |
 | Sam Nujoma | [vamay505@gmail.com] |
-| Wendy Omollo | [] |
+| Wendy Omollo | [omollow280@gmail.com] |
 
 
  
 
 ## License
 * *MIT License:*
+* Copyright (c) 2019
 
 
