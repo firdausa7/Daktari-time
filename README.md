@@ -3,11 +3,11 @@
 | Name       |                 Role |
 | ------------------ | ------------------------|
 | [Firdausa salat](https://github.com/firdausa7)| Scrum Master|      
-| [Christine Ombima](https://github.com/ombima452) | BackEnd|
-| [Keren Mungai](https://github.com/mungaikeren) | FrontEnd / BackEnd|
-| [Peter Ndegwa](https://github.com/peterkingori) |FrontEnd|
+| [Christine Ombima](https://github.com/ombima452) | Backend|
+| [Keren Mungai](https://github.com/mungaikeren) | Frontend / Backend|
+| [Peter Ndegwa](https://github.com/peterkingori) |Frontend|
 | [Wendy Omollo](https://github.com/wendyomollo) | Functionality|
-| [Sam Nujoma](https://github.com/i-krypt) |  FrontEnd|
+| [Sam Nujoma](https://github.com/i-krypt) |  Frontend|
 
 ## Description
 This is a web application that allows users to make appointments to see a specialist and also see all doctors background and credentials.
