@@ -97,6 +97,10 @@ body {
 	display: none;
 }
 
+.oncologists, .gynaecologists {
+	display: none;
+}
+
 .wendyimage {
 	background-image: url(../images/doctors/wendy.jpg);
 	background-position: center;
