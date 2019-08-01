@@ -90,10 +90,11 @@ body {
       margin-top: 100px;
   }
   .contactparag{
-    font-family: 'Rajdhani', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
+    font-family: 'Barlow', sans-serif;
+
 
 }
 .contactus{
@@ -125,18 +126,15 @@ footer{
 }
 #jumbo{
     background-color:beige;
-    margin-top: 150px;
-    margin-left: 20px;
-    margin-right: 100px;
     position: relative;
 }
 .talk:hover{
-    color: #5edfff;
-    font-family: 'Lobster', cursive;
+    color: lightslategray;
 
 }
 .talk{
     color:blue;
     text-align: center;
+    font-family: 'Libre Caslon Text', serif;
 
 }
