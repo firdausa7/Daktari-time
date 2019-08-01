@@ -1,9 +1,22 @@
-.home{
-    background: url('https://i.ibb.co/sC0Lvx5/Be-Funky-photo-5.jpg');
+*{
+    box-sizing: border-box;
 }
 
+body{
+    background: url('https://i.ibb.co/sC0Lvx5/Be-Funky-photo-5.jpg');
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.home{
+    padding-top: 26%;
+}
 .sh{
     font-family: 'Fjalla One', sans-serif;
     
     font-size: 20px;
 }
+
