@@ -1,3 +1,53 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://i.ibb.co/sC0Lvx5/Be-Funky-photo-5.jpg');
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+   
+}
+
+#head{
+    font-family: 'Vollkorn', serif;
+    font-size:30px;
+  
+}
+.icon{
+    color:rgb(21, 23, 22);
+}
+
+.hh{
+padding-left: 10%;
+margin-top: 10%;
+}
+
+.navbar-brand{
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    
+}
+.home{
+    margin-top: 13%;
+  
+}
+.sh{
+    font-family: 'Fjalla One', sans-serif;
+    
+    font-size: 20px;
+}
+
+.own-class{
+    color: rgb(19, 154, 219);
+}
+
+=======
 form{
     width: 70%;
     margin-left: 30%;
@@ -94,10 +144,11 @@ body {
       margin-top: 100px;
   }
   .contactparag{
-    font-family: 'Rajdhani', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
+    font-family: 'Barlow', sans-serif;
+
 
 }
 .contactus{
@@ -129,18 +180,16 @@ footer{
 }
 #jumbo{
     background-color:beige;
-    margin-top: 150px;
-    margin-left: 20px;
-    margin-right: 100px;
     position: relative;
 }
 .talk:hover{
-    color: #5edfff;
-    font-family: 'Lobster', cursive;
+    color: lightslategray;
 
 }
 .talk{
     color:blue;
     text-align: center;
+    font-family: 'Libre Caslon Text', serif;
 
 }
+
