@@ -3,11 +3,11 @@
 ## Authors
 | Name       |                 Role |
 | ------------------ | ------------------------|
-| [Firdausa salat](https://github.com/firdausa7)| Scrum Master|      
-| [Christine Ombima](https://github.com/ombima452) | Backend|
+| [Firdausa salat](https://github.com/firdausa7)| Scrum Master / backend|      
+| [Christine Ombima](https://github.com/ombima452) | Backend / Frontend|
 | [Keren Mungai](https://github.com/mungaikeren) | Frontend / Backend|
 | [Peter Ndegwa](https://github.com/peterkingori) |Frontend|
-| [Wendy Omollo](https://github.com/wendyomollo) | Functionality|
+| [Wendy Omollo](https://github.com/wendyomollo) | Backend|
 | [Sam Nujoma](https://github.com/i-krypt) |  Frontend|
 
 ## Description
