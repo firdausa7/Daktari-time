@@ -1,3 +1,22 @@
+form{
+    width: 70%;
+    margin-left: 10%;
+}
+#name,#email,#comment{
+    background-color: transparent;
+}
+.jumbotron{
+    background-color: white;
+}
+
+nav{
+    background-color: #5edfff ;
+    position: sticky;
+} 
+.nav-link{
+  background-color: #5edfff;
+}
+
 body {
 	scroll-behavior: smooth;
 }
@@ -56,4 +75,6 @@ body {
 
 .time {
 	display: none;
+	height: 50vh;
 }
+
