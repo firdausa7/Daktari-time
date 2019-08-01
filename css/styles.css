@@ -51,14 +51,38 @@ body {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 40vh;
+}
+
+.foyeimage {
+	background-image: url(../images/doctors/foye.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40vh;
+}
+
+.ruthimage {
+	background-image: url(../images/doctors/ruth.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40vh;
+}
+
+.absent {
+	background-color: #e2e2e2;
+}
+
+.time {
+	display: none;
 	height: 50vh;
-  }
-  #contact{
+}
+#contact{
       background-image: url("../images/co.jpeg");
       height: 250px;
       background-size: cover;
       padding: 0;
-
   }
   .overlay{
       height: 250px;
