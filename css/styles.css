@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 19d3dfc3044497e264b37b1980494abf8ad174af
 *{
     box-sizing: border-box;
 }
@@ -46,10 +50,14 @@ margin-top: 10%;
     color: rgb(19, 154, 219);
 }
 
+<<<<<<< HEAD
 
 
 
 
+=======
+=======
+>>>>>>> 19d3dfc3044497e264b37b1980494abf8ad174af
 form{
     width: 70%;
     margin-left: 30%;
@@ -190,3 +198,4 @@ footer{
     font-family: 'Libre Caslon Text', serif;
 
 }
+
