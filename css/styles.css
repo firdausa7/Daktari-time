@@ -34,7 +34,18 @@ body {
 	height: 40vh;
 }
 
+.foyeimage {
+	background-image: url(../images/doctors/foye.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40vh;
+}
+
 .absent {
 	background-color: #e2e2e2;
 }
 
+.time {
+	display: none;
+}
