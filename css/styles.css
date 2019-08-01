@@ -108,11 +108,11 @@ footer{
 }
 .talk:hover{
     color: #5edfff;
-    font-family: 'Lobster', cursive;
 
 }
 .talk{
     color:blue;
     text-align: center;
+    font-family: 'Lobster', cursive;
 
 }
