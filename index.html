@@ -11,6 +11,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Rajdhani&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Farro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -23,18 +29,12 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Rajdhani&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Farro&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
 
     <title>Daktari Time</title>
 </head>
 
 <body>
-
-<!-- navbar -->
+ <!-- navbar -->
     <!-- <div class="navbar">
         <a href="#" class="logo">Daktari Time</a>
         <ul class="nav">
@@ -62,6 +62,112 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">About</a>
                 </li>
+              
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-555" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Specialists
+                  </a>
+                  <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-555">
+                    <a class="dropdown-item" href="#">Oncologists</a>
+                    <a class="dropdown-item" href="#">Gynacologists</a>
+                    <a class="dropdown-item" href="#">Paedetricians</a>
+                  </div>
+                </li>
+              </ul>
+              <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item">
+                  <a class="nav-link waves-effect waves-light">1
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-user"></i> Profile </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                          <a class="dropdown-item" href="#">My account</a>
+                          <a class="dropdown-item" href="#">Log out</a>
+                        </div>
+                      </li>
+              </ul>
+            </div>
+          </nav>
+          <!--/.Navbar -->
+        <!-- navbar -->
+        <div class="hh">
+                <h2 class="ui header">
+                        <i class="user md icon" id="icon"></i>
+                        <div class="content" id="head">
+                          Daktari-time
+                          <div class="sub header">Daktari wangu conveniently.</div>
+                        </div>
+                      </h2>
+        </div>
+    
+    
+        <!-- home section -->
+        <section class="home"> 
+            <div class="container">
+                <h1 class="sh">Services offered.</h1>
+                <br>
+                <div class="row justify-content-center">
+                    <!-- card 1 -->
+                    <div class="col-md-4">
+                        <div class="ui card">
+                            <div class="content">
+                                <div class="center aligned header">Practitioner</div>
+                                <div class="center aligned description">
+                                    <p>Choose a particular medical specialist depending on your medical needs.</p>
+                                </div>
+                            </div>
+                            <div class="extra content">
+                                <div class="center aligned author">
+                                    <i class="fas fa-user-md fa-3x own-class"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- card 2 -->
+                    <div class="col-md-4">
+                        <div class="ui card">
+                            <div class="content">
+                                <div class="center aligned header">Availability</div>
+                                <div class="center aligned description">
+                                    <p>See the doctors available and their schedule by viewing their calendars.</p>
+                                </div>
+                            </div>
+                            <div class="extra content">
+                                <div class="center aligned author">
+                                    <i class="fas fa-calendar-check fa-3x own-class"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- card 3 -->
+                    <div class="col-md-4">
+                        <div class="ui card">
+                            <div class="content">
+                                <div class="center aligned header">Appointments</div>
+                                <div class="center aligned description">
+                                    <p>Book an appointment and get the medical contact and location for service.</p>
+                                </div>
+                            </div>
+                            <div class="extra content">
+                                <div class="center aligned author">
+                                    <i class="fas fa-stethoscope fa-3x own-class"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </div>
+        </section>
+    
+       
 
 
 
@@ -186,6 +292,21 @@
     </footer>
 
     </div>
+
+     <!-- End of home section -->
+    
+    <!-- scripts -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+   
+    
+
 
 </body>
 
