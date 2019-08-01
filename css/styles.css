@@ -51,14 +51,38 @@ body {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 40vh;
+}
+
+.foyeimage {
+	background-image: url(../images/doctors/foye.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40vh;
+}
+
+.ruthimage {
+	background-image: url(../images/doctors/ruth.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40vh;
+}
+
+.absent {
+	background-color: #e2e2e2;
+}
+
+.time {
+	display: none;
 	height: 50vh;
-  }
-  #contact{
+}
+#contact{
       background-image: url("../images/co.jpeg");
       height: 250px;
       background-size: cover;
       padding: 0;
-
   }
   .overlay{
       height: 250px;
@@ -66,10 +90,11 @@ body {
       margin-top: 100px;
   }
   .contactparag{
-    font-family: 'Rajdhani', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
+    font-family: 'Barlow', sans-serif;
+
 
 }
 .contactus{
@@ -101,18 +126,15 @@ footer{
 }
 #jumbo{
     background-color:beige;
-    margin-top: 150px;
-    margin-left: 20px;
-    margin-right: 100px;
     position: relative;
 }
 .talk:hover{
-    color: #5edfff;
+    color: lightslategray;
 
 }
 .talk{
     color:blue;
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'Libre Caslon Text', serif;
 
 }
