@@ -10,9 +10,31 @@ body{
     padding: 0;
     margin: 0;
     width: 100%;
+   
+}
+
+#head{
+    font-family: 'Vollkorn', serif;
+    font-size:30px;
+  
+}
+.icon{
+    color:rgb(21, 23, 22);
+}
+
+.hh{
+padding-left: 10%;
+margin-top: 10%;
+}
+
+.navbar-brand{
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    
 }
 .home{
-    padding-top: 26%;
+    margin-top: 13%;
+  
 }
 .sh{
     font-family: 'Fjalla One', sans-serif;
@@ -23,3 +45,4 @@ body{
 .own-class{
     color: rgb(19, 154, 219);
 }
+
