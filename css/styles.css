@@ -1,3 +1,65 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://i.ibb.co/sC0Lvx5/Be-Funky-photo-5.jpg');
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+   
+}
+
+#head{
+    font-family: 'Vollkorn', serif;
+    font-size:30px;
+  
+}
+.icon{
+    color:rgb(21, 23, 22);
+}
+
+.hh{
+padding-left: 10%;
+margin-top: 10%;
+}
+
+.navbar-brand{
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    
+}
+.home{
+    margin-top: 13%;
+  
+}
+.sh{
+    font-family: 'Fjalla One', sans-serif;
+    
+    font-size: 20px;
+}
+
+.own-class{
+    color: rgb(19, 154, 219);
+}
+
+
+form{
+    width: 70%;
+    margin-left: 30%;
+    
+}
+#name,#email,#comment{
+    background-color: transparent;
+}
+.jumbotron{
+    background-color: white;
+}
+
 nav{
     background-color: #5edfff ;
     width: 100%;
@@ -35,11 +97,96 @@ body {
 	display: none;
 }
 
-.drimage {
+.wendyimage {
 	background-image: url(../images/doctors/wendy.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 40vh;
+}
+
+.foyeimage {
+	background-image: url(../images/doctors/foye.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40vh;
+}
+
+.ruthimage {
+	background-image: url(../images/doctors/ruth.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40vh;
+}
+
+.absent {
+	background-color: #e2e2e2;
+}
+
+.time {
+	display: none;
 	height: 50vh;
+}
+#contact{
+      background-image: url("../images/co.jpeg");
+      height: 250px;
+      background-size: cover;
+      padding: 0;
   }
+  .overlay{
+      height: 250px;
+      background-color: rgba(0, 0,0, 0.5);
+      margin-top: 100px;
+  }
+  .contactparag{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+
+
+}
+.contactus{
+     text-align: center;
+     padding-top: 50px;
+     color: white;
+     font-family: 'Libre Caslon Text', serif;
+    font-size: 35px;
+}
+footer{
+    background-color:rgb(57, 168, 233);
+    height: 100px;
+
+}
+#icons{
+    display:inline-flex;
+    padding-top:20px;
+    padding-left: 420px;
+}
+.follow{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+    padding-right:60px;
+}
+.follow:hover{
+    color: #5edfff;
+}
+#jumbo{
+    background-color:beige;
+    position: relative;
+}
+.talk:hover{
+    color: lightslategray;
+
+}
+.talk{
+    color:blue;
+    text-align: center;
+    font-family: 'Libre Caslon Text', serif;
+
+}
 
