@@ -42,6 +42,14 @@ body {
 	height: 40vh;
 }
 
+.ruthimage {
+	background-image: url(../images/doctors/ruth.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40vh;
+}
+
 .absent {
 	background-color: #e2e2e2;
 }
