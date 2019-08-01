@@ -16,10 +16,10 @@ function myForm() {
       return false
   }
   else {
-    alert("Hi "+ Name +' Thank you for writing to us.We value your feedback')
+    alert("Hi "+ Name +' Thank you for writing to us.We value your feedback.')
   };
 };
-$('document').ready(function(){
+$(document).ready(function(){
 
 var slideIndex = 0;
 showSlides();
@@ -47,6 +47,6 @@ function showSlides() {
         });
   
    $("#worker3").click(function(){
-     $("#comment3").slideDown();
+     $("#comment3").toggle();
          });
 });
