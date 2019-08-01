@@ -15,27 +15,23 @@
 
 <body>
 	<div class="container pt-3">
-		<div class="row">
+		<div class="row my-0">
 			<div class="col-md-3 wendyimage">
 			</div>
 			<div class="col-md-7">
 				<h2>Dr Wendy Kimani</h2>
-				<p class="text-primary">Paediatric Neurologist</p>
-				<h5>Education and training</h5>
-				<p class="my-1">Medical School - New York University, New York College of Osteopathic Medicine, Doctor of Osteopathic Medicine</p>
-				<p class="my-1">Nairobi University Hospital, Residency in Paediatrics</p>
-				<p class="my-1">Nairobi University (Bachelor's Degree)</p>
-				<h5>Professional experience</h5>
-				<p>Resident Paediatrician at Aga Khan Hospital</p>
-				<p>A.I.C Kijabe Medical Centre of Paediatrics</p>
-			</div>
-			<div class="col-md-2 d-flex align-items-end">
-				<button class="btn btn-warning">See reviews</button>
+				<p class="text-primary my-0">Paediatric Neurologist</p>
+				<h5 class="my-0">Education and training</h5>
+				<p class="my-0">Medical School - New York University, New York College of Osteopathic Medicine, Doctor of Osteopathic Medicine</p>
+				<p class="my-0">Nairobi University (Bachelor's Degree)</p>
+				<h5 class="my-0">Professional experience</h5>
+				<p class="my-0">Resident Paediatrician at Aga Khan Hospital</p>
+				<p class="my-">A.I.C Kijabe Medical Centre of Paediatrics</p>
 			</div>
 		</div>
 		<hr>
-		<div class="row my-3 shadow">
-			<div class="col-md-4 mt-2">
+		<div class="row my-0 shadow">
+			<div class="col-md-4 mt-1">
 				<table class="table table-borderless table-sm">
 					<thead class="my-0">
 						<tr>
@@ -85,29 +81,29 @@
 			</div>
 
 			<div class="col-md-4 mt-1">
-				<form>
-					<legend class="mb-0">Contact daktari</legend>
+				<form id="details">
+					<h5 class="mb-2">Contact Dr. Wendy</h5>
 					<div class="form-group">
+						<input type="text" name="name" class="form-control" id="letters" placeholder="Name" required>
 						<label class="form-check-label"></label>
-						<input type="text" class="form-control" placeholder="Name">
+						<input type="email" name="email" class="form-control" id="address" placeholder="Email" required>
 						<label class="form-check-label"></label>
-						<input type="email" class="form-control" placeholder="Email">
+						<input type="number" name="phone" class="form-control" id="mobile" placeholder="Phone" required>
 						<label class="form-check-label"></label>
-						<input type="text" class="form-control" placeholder="Phone">
-						<label class="form-check-label"></label>
-						<textarea class="form-control" name="message" id="message" cols="5" rows="6" placeholder="Your message"></textarea>
-						<button id="submit-message" type="submit" class="btn btn-primary mt-2">Add contact</button>
+						<textarea class="form-control" name="message" id="message" cols="5" rows="4" placeholder="Your message" required></textarea>
+						<button id="questionDoctor" type="submit" class="btn btn-primary mt-2">Submit message</button>
 					</div>
 				</form>
+				<p class="show-details"></p>
 			</div>
 			<div class="col-md-4 mt-1">
-				<h5 class="mb-3">Make an appointment</h5>
-				<table class="table table-sm table-bordered text-center">
+				<h5>Make an appointment</h5>
+				<table class="table table-sm table-bordred text-center">
 					<thead>
 						<tr>
-							<th scope="col"><i class="fas fa-less-than"></i></th>
-							<th scope="col" colspan="5" class="text-center">August 2019</th>
-							<th scope="col"><i class="fas fa-greater-than"></i></th>
+							<th></th>
+							<th colspan="5">August 2019</th>
+							<th></th>
 						</tr>
 					</thead>
 					<thead class="thead-light">
@@ -126,51 +122,57 @@
 							<td></td>
 							<td></td>
 							<td></td>
-							<td>1</td>
-							<td>2</td>
-							<td>3</td>
-							<td>4</td>
+							<td><button class="btn btn-primary">1</button></td>
+							<td class="absent">2</td>
+							<td><button class="btn btn-primary">3</button></td>
+							<td class="absent">4</td>
 						</tr>
 						<tr>
-							<td>5</td>
-							<td>6</td>
-							<td>7</td>
-							<td>8</td>
-							<td>9</td>
-							<td>10</td>
-							<td>11</td>
+							<td><button class="btn btn-primary">5</button></td>
+							<td class="absent">6</td>
+							<td class="absent">7</td>
+							<td><button class="btn btn-primary">8</button></td>
+							<td class="absent">9</td>
+							<td><button class="btn btn-primary">10</button></td>
+							<td class="absent">11</td>
 						</tr>
 						<tr>
-							<td>12</td>
-							<td>13</td>
-							<td>14</td>
-							<td>15</td>
-							<td>16</td>
-							<td>17</td>
-							<td>18</td>
+							<td><button class="btn btn-primary">12</button></td>
+							<td class="absent">13</td>
+							<td class="absent">14</td>
+							<td><button class="btn btn-primary">15</button></td>
+							<td class="absent">16</td>
+							<td><button class="btn btn-primary">17</button></td>
+							<td class="absent">18</td>
 						</tr>
 						<tr>
-							<td>19</td>
-							<td>20</td>
-							<td>21</td>
-							<td>22</td>
-							<td>23</td>
-							<td>24</td>
-							<td>25</td>
+							<td><button class="btn btn-primary">19</button></td>
+							<td class="absent">20</td>
+							<td class="absent">21</td>
+							<td><button class="btn btn-primary">22</button></td>
+							<td class="absent">23</td>
+							<td><button class="btn btn-primary">24</button></td>
+							<td class="absent">25</td>
 						</tr>
 						<tr>
-							<td>26</td>
-							<td>27</td>
-							<td>28</td>
-							<td>29</td>
-							<td>30</td>
+							<td><button class="btn btn-primary">26</button></td>
+							<td class="absent">27</td>
+							<td class="absent">28</td>
+							<td><button class="btn btn-primary">29</button></td>
+							<td class="absent">30</td>
 							<td></td>
 							<td></td>
 						</tr>
 					</tbody>
 				</table>
+				<button type="button" id="book" class="btn btn-outline-primary">Book appointment</button>
 			</div>
 		</div>
+
+<!--
+<i class="fas fa-less-than fa-sm"></i>
+<i class="fas fa-greater-than fa-sm"></i>
+-->
 
 	</div>
 

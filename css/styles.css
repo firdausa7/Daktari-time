@@ -31,10 +31,10 @@ body {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 50vh;
+	height: 40vh;
 }
 
-
-
-
+.absent {
+	background-color: #e2e2e2;
+}
 
