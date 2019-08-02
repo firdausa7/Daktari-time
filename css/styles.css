@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 19d3dfc3044497e264b37b1980494abf8ad174af
+
 *{
     box-sizing: border-box;
 }
@@ -50,14 +48,12 @@ margin-top: 10%;
     color: rgb(19, 154, 219);
 }
 
-<<<<<<< HEAD
 
 
 
 
-=======
-=======
->>>>>>> 19d3dfc3044497e264b37b1980494abf8ad174af
+
+
 form{
     width: 70%;
     margin-left: 30%;
@@ -70,16 +66,7 @@ form{
     background-color: white;
 }
 
-nav{
-    background-color: #5edfff ;
-    position: sticky;
-} 
-.nav-link{
-  background-color: #5edfff;
-}
-
-body {
-	scroll-behavior: smooth;
+havior: smooth;
 }
 
 .about-us {
@@ -103,6 +90,10 @@ body {
 }
 
 #comment1, #comment2, #comment3 {
+	display: none;
+}
+
+.oncologists, .gynaecologists {
 	display: none;
 }
 
