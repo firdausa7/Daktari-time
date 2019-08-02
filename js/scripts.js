@@ -17,7 +17,7 @@ function myForm() {
       return false
   }
   else {
-    alert("Hi "+ Name +' Thank you for writing to us.We value your feedback')
+    alert("Hi "+ Name +' Thank you for writing to us.We value your feedback.')
   };
   
       $('#day1').click(function(){
@@ -59,6 +59,7 @@ function myForm() {
     $('#day29').click(function(){
         $('.time').toggle();
     });
+
 
 //booking buttons
 $('#book').click(function(){
@@ -135,6 +136,6 @@ function showSlides() {
         });
   
    $("#worker3").click(function(){
-     $("#comment3").slideDown();
+     $("#comment3").toggle();
          });
 });
