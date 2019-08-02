@@ -1,5 +1,4 @@
-
-$('document').ready(function(){
+$(document).ready(function(){
 function myForm() {  
    var Name = document.forms["commentForm"]["entername"].value;
   if (Name== "") {
@@ -136,4 +135,5 @@ $('button#book5').click(function(){
    $("#worker3").click(function(){
      $("#comment3").toggle();
          });
+         event.preventDefault();
 });
