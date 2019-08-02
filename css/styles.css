@@ -60,17 +60,7 @@ form{
     background-color: white;
 }
 
-nav{
-    background-color: #5edfff ;
-    width: 100%;
-    position: sticky;
-} 
-.nav-link{
-  background-color: #5edfff;
-}
-
-body {
-	scroll-behavior: smooth;
+havior: smooth;
 }
 
 .about-us {
