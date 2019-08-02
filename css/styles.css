@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -65,5 +66,147 @@ margin-top: 10%;
 
 .own-class{
     color: rgb(19, 154, 219);
+}
+
+=======
+form{
+    width: 70%;
+    margin-left: 30%;
+    
+}
+#name,#email,#comment{
+    background-color: transparent;
+}
+.jumbotron{
+    background-color: white;
+}
+
+nav{
+    background-color: #5edfff ;
+    position: sticky;
+} 
+.nav-link{
+  background-color: #5edfff;
+}
+
+body {
+	scroll-behavior: smooth;
+}
+
+.about-us {
+	height: 80vh;
+}
+
+.about-text {
+	font-size: 1.3rem;
+}
+
+.lead {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.about-image {
+	background-image: url(../images/team/doctor.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#comment1, #comment2, #comment3 {
+	display: none;
+}
+
+.wendyimage {
+	background-image: url(../images/doctors/wendy.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40vh;
+}
+
+.foyeimage {
+	background-image: url(../images/doctors/foye.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40vh;
+}
+
+.ruthimage {
+	background-image: url(../images/doctors/ruth.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40vh;
+}
+
+.absent {
+	background-color: #e2e2e2;
+}
+
+.time {
+	display: none;
+	height: 50vh;
+}
+#contact{
+      background-image: url("../images/co.jpeg");
+      height: 250px;
+      background-size: cover;
+      padding: 0;
+  }
+  .overlay{
+      height: 250px;
+      background-color: rgba(0, 0,0, 0.5);
+      margin-top: 100px;
+  }
+  .contactparag{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+
+
+}
+.contactus{
+     text-align: center;
+     padding-top: 50px;
+     color: white;
+     font-family: 'Libre Caslon Text', serif;
+    font-size: 35px;
+}
+footer{
+    background-color:rgb(57, 168, 233);
+    height: 100px;
+
+}
+#icons{
+    display:inline-flex;
+    padding-top:20px;
+    padding-left: 420px;
+}
+.follow{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+    padding-right:60px;
+}
+.follow:hover{
+    color: #5edfff;
+}
+#jumbo{
+    background-color:beige;
+    position: relative;
+}
+.talk:hover{
+    color: lightslategray;
+
+}
+.talk{
+    color:blue;
+    text-align: center;
+    font-family: 'Libre Caslon Text', serif;
+
 }
 
