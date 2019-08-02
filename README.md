@@ -13,10 +13,10 @@
 ## Description
 This is a web application that allows users to make appointments to see a specialist and also see all doctors background and credentials.
 ## Screenshot
-<img src="../images/screenshot.png">
+<img src="/home/firdausa/Documents/Daktari-time/images/Screenshot.png">
 
 ## Live Page 
-[]
+[https://firdausa7.github.io/Daktari-time/]
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 
