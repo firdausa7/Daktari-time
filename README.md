@@ -13,7 +13,7 @@
 ## Description
 This is a web application that allows users to make appointments to see a specialist and also see all doctors background and credentials.
 ## Screenshot
-<img src="">
+<img src="../images/screenshot.png">
 
 ## Live Page 
 []
